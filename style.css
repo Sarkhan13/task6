@@ -1,0 +1,32 @@
+.head{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(160, 156, 156);
+    display: flex;
+    justify-content: space-between;
+}
+
+div.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    
+}
+div.home{
+    
+    width: 60px;
+    height: 35px;
+    
+}
+div.services{
+    
+    width: 60px;
+    height: 35px;
+}
+div.about{
+    
+    width: 60px;
+    height: 35px;
+}
