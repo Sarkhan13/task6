@@ -67,7 +67,7 @@ div.container {
     justify-content: space-around;
     flex-wrap: wrap;
     width: 700px;
-
+    flex-direction: row-reverse;
 
 }
 
