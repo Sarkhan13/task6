@@ -20,6 +20,10 @@ div.home{
     height: 35px;
     
 }
+div.home:hover {
+    background-color: rgb(202, 112, 112);
+}
+
 div.services{
     
     width: 60px;
@@ -29,4 +33,67 @@ div.about{
     
     width: 60px;
     height: 35px;
+}
+div.about:hover {
+    background-color: rgb(202, 112, 112);
+}
+div.down {
+    display: none;
+    position: absolute;
+    background-color: rgb(202, 112, 112);    top: 47px;
+    width: 100px;
+}
+
+div.dropbox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+div.dropbox:hover div.down{
+    display: block;
+}
+
+div.dropbox:hover {
+    background-color: rgb(202, 112, 112);
+}
+
+div.container {
+    background-color: rgb(184, 183, 183);
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 700px;
+
+
+}
+
+div.items {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    
+}
+
+div.item1{
+    background-color: red;
+}
+
+div.item2{
+    background-color: yellow;
+}
+
+div.item3{
+    background-color: blue;
+}
+
+div.item4{
+    background-color: rgb(9, 9, 63)
+}
+div.item5{
+    background-color: rgb(41, 39, 39);
+    margin: 10px;
 }
